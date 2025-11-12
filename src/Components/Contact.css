@@ -1,0 +1,32 @@
+.contact-section {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    background-color: var(--color-background); /* Aloe Green */
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--color-white);
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact-email {
+    color: var(--color-secondary); /* Cypress Green */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.contact-email:hover {
+    color: var(--color-primary-dark); /* Moss Green */
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.about-section {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.about-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--color-white);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.about-decoration span {
+    font-size: 2rem;
+    margin: 0 10px;
+}

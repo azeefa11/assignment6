@@ -1,0 +1,51 @@
+.navbar {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--color-border); /* Cedar for a soft line */
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-primary-dark);
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 2rem;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: var(--color-primary-dark);
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+    color: var(--color-secondary); /* Cypress on hover */
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .navbar-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .navbar-links {
+        padding-top: 0.5rem;
+        gap: 1.5rem;
+    }
+    .navbar-links li {
+        margin-left: 0;
+    }
+}
